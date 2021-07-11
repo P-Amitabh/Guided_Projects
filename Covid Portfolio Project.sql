@@ -1,8 +1,8 @@
 -- SQL Project 1
 
 
--- I'll be looking only at India in most queries
--- But please note the that the data contains all countries that are reporting cases
+-- We've run some general queries to understand the world covid data better.
+
 
 -- Looking at total cases vs total deaths
 -- This shows how likely you are to die if you get Covid-19 in India
@@ -51,6 +51,8 @@ WHERE continent IS NOT NULL
 GROUP BY date
 ORDER BY SUM(new_cases);
 
+
+-- END --
 
 
 
